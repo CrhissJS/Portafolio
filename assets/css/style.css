@@ -160,7 +160,7 @@ input#menu-hamburguesa:checked ~ ul{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-image: url(http://127.0.0.1:5500/Portafolio/assets/images/yo.png);
+    background-image: url(../images/yo.png);
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -267,7 +267,7 @@ input#menu-hamburguesa:checked ~ ul{
     width: 100%;
     margin: .5rem;
     border-radius: 5px;
-    background-image: url(http://127.0.0.1:5500/Portafolio/assets/vectors/Ellipse.svg);
+    background-image: url(../vectors/Ellipse.svg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -355,7 +355,7 @@ input#menu-hamburguesa:checked ~ ul{
     width: 200px;
     /*margin: 25px;*/
     border-radius: 6px;
-    background-image: url(http://127.0.0.1:5500/Portafolio/assets/vectors/Ellipse.svg);
+    background-image: url(../vectors/Ellipse.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center top;
@@ -391,6 +391,43 @@ input#menu-hamburguesa:checked ~ ul{
     align-self: flex-end;
 }
 
+
+
+/*Botón de descarga CV*/
+
+#mi-cv{
+    margin: 25px;
+}
+
+.container-mi-cv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button{
+    border: 2px outset gray;
+    background-image: url(../images/cv.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    border-radius: 10px;
+    width: 130px;
+    height: 50px;
+    text-align:center ;
+    font-size: 10px;
+    font-weight: bold;
+    color: #FFF ;
+    text-shadow: 1px 1px 1px black;
+    background-size: 25px;
+}
+
+button:hover{
+    position: relative;
+    width: 140px;
+    height: 50px;
+    border: 2px inset var(--color-number-one);
+    text-shadow: 1px 1px 1px var(--color-number-one);
+}
 
 
 /*Footer*/
